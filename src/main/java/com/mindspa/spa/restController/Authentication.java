@@ -50,6 +50,7 @@ public class Authentication {
         }
         return result ;
     }
+
     //登录验证入口
     @RequestMapping(value = "/userall")
     public Result user( HttpServletRequest request) {
